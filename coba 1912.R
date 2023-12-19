@@ -58,6 +58,7 @@ fbyt.server = function(input, output){
   })
 }
 
+
 shinyApp(ui = fbyt.ui, server = fbyt.server)
 
 #Apps Plot
